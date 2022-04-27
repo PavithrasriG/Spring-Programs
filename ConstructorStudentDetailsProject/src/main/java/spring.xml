@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"> 
+    
+    <bean id="sob" class="com.edu.Student">
+  
+    <constructor-arg value="501" type="int"></constructor-arg>
+    <constructor-arg value="Pavithra" type="String"></constructor-arg>
+    <constructor-arg value="JFS" type="String"></constructor-arg>
+    <constructor-arg value="10000.60" type="float"></constructor-arg>
+    
+    </bean>
+    
+    <bean id="sob1" class="com.edu.Student">
+    <constructor-arg value="502" type="int"></constructor-arg>
+    <constructor-arg value="Bhavanasri" type="String"></constructor-arg>
+    <constructor-arg value="AWS" type="String"></constructor-arg>
+    <constructor-arg value="20000.50" type="float"></constructor-arg>
+    </bean>
+    
+    
+    
+    </beans>
